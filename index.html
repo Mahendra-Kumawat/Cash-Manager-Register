@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cash Manager</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Hello Welcome to the Cash register Manager 
+        </h1>
+            <form class="my-form">
+                <div>
+                    <label for="bill" class="center"> Bill Amounts </label>
+                    <input type="number" class="border_none" id="bill">
+                </div>
+                <div class="error" id="error-msg"></div>
+                <div class="m-top"> 
+                    <label for="cash" class="center"> Cash given </label>
+                    <input type="number" class="border_none" id="cash">
+                </div>
+                <div class="error" id="error-msg-1"> </div>
+                <button class="btn border_none">
+                    Check
+                </button>
+            </form>
+            <div class="result m-top">
+                <h2 class="center">
+                    Return Change
+                </h2>
+                <table class="m-top">
+                    <thead>
+                        <tr>
+                            <th>Notes</th>
+                            <th>2000</th>
+                            <th>500</th>
+                            <th>200</th>
+                            <th>100</th>
+                            <th>50</th>
+                            <th>20</th>
+                            <th>10</th>
+                            <th>5</th>
+                            <th>1</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           <th>No. of Note</th>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
